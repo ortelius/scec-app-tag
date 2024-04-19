@@ -159,12 +159,22 @@ func setupRoutes(app *fiber.App) {
 // @title Ortelius v11 Domain Microservice
 // @version 11.0.0
 // @description RestAPI for the Domain Object
+// @description ![Release](https://img.shields.io/github/v/release/ortelius/scec-app-tag?sort=semver)
+// @description ![license](https://img.shields.io/github/license/ortelius/scec-app-tag)
+// @description
+// @description ![Build](https://img.shields.io/github/actions/workflow/status/ortelius/scec-app-tag/build-push-chart.yml)
+// @description [![MegaLinter](https://github.com/ortelius/scec-app-tag/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/ortelius/scec-app-tag/actions?query=workflow%3AMegaLinter+branch%3Amain)
+// @description ![CodeQL](https://github.com/ortelius/scec-app-tag/workflows/CodeQL/badge.svg)
+// @description [![OpenSSF-Scorecard](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-app-tag/badge)](https://api.securityscorecards.dev/projects/github.com/ortelius/scec-app-tag)
+// @description
+// @description ![Discord](https://img.shields.io/discord/722468819091849316)
+
 // @termsOfService http://swagger.io/terms/
 // @contact.name Ortelius Google Group
 // @contact.email ortelius-dev@googlegroups.com
 // @license.name Apache 2.0
 // @license.url http://www.apache.org/licenses/LICENSE-2.0.html
-// @host localhost:3000
+// @host localhost:8080
 // @BasePath /msapi/domain
 func main() {
 	port := ":" + database.GetEnvDefault("MS_POST", "8080")
