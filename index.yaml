@@ -2,6 +2,17 @@ apiVersion: v1
 entries:
   scec-app-tag:
   - apiVersion: v2
+    appVersion: 11.0.1231
+    created: "2025-10-16T05:07:26.034002163Z"
+    description: Domain microservice
+    digest: 2007174f48059c20183acd080b232d65b3805d11740d51a82630de29561b5489
+    icon: https://ortelius.github.io/ortelius-charts/logo.png
+    name: scec-app-tag
+    type: application
+    urls:
+    - https://github.com/ortelius/scec-app-tag/releases/download/scec-app-tag-11.0.1231/scec-app-tag-11.0.1231.tgz
+    version: 11.0.1231
+  - apiVersion: v2
     appVersion: 11.0.1229
     created: "2025-10-15T05:10:20.813320726Z"
     description: Domain microservice
@@ -4819,4 +4830,4 @@ entries:
     urls:
     - https://github.com/ortelius/scec-app-tag/releases/download/scec-app-tag-11.0.11/scec-app-tag-11.0.11.tgz
     version: 11.0.11
-generated: "2025-10-15T05:10:20.81303276Z"
+generated: "2025-10-16T05:07:26.033705178Z"
